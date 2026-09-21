@@ -15,7 +15,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package org.przybyl.ddj27;
+package org.przybyl.ddj26;
 
 import java.util.List;
 import java.util.concurrent.ForkJoinPool;

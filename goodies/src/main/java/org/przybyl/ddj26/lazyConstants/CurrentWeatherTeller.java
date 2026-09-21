@@ -15,7 +15,7 @@
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package org.przybyl.ddj27.stableValues;
+package org.przybyl.ddj26.lazyConstants;
 
 import java.net.URI;
 import java.net.http.HttpClient;

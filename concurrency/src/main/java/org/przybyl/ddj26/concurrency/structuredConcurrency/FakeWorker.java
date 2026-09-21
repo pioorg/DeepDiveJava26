@@ -14,7 +14,7 @@
  *  You should have received a copy of the GNU General Public License
  *  along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-package org.przybyl.ddj27.concurrency.structuredConcurrency;
+package org.przybyl.ddj26.concurrency.structuredConcurrency;
 
 import java.util.Random;
 

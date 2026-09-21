@@ -1,2 +1,2 @@
 Manifest-Version: 1.0
-Main-Class: org.przybyl.ddj27.App
+Main-Class: org.przybyl.ddj26.App

@@ -14,11 +14,10 @@
  *  You should have received a copy of the GNU General Public License
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package org.przybyl.ddj27.concurrency.scopedValues;
+package org.przybyl.ddj26.concurrency.scopedValues;
 
 
 import java.util.Random;
-import java.util.concurrent.ExecutionException;
 import java.util.concurrent.StructuredTaskScope;
 
 // Don't forget ot use --enable-preview
@@ -54,7 +53,7 @@ public class ScopedValuesDemo {
             scope.fork(() -> starship.locateCrewMember("Tuvok"));
             scope.fork(starship::blockBridgeControls);
             scope.join();
-        } catch (InterruptedException | ExecutionException ie) {
+        } catch (InterruptedException ie) {
             // please keep in mind this is demo only, don't do that at home!
             throw new RuntimeException(ie);
         }

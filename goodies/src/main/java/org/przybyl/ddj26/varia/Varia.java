@@ -14,11 +14,11 @@
  *  You should have received a copy of the GNU General Public License
  *  along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
-package org.przybyl.ddj27.varia;
+package org.przybyl.ddj26.varia;
 
 
 // run as e.g.
-// java org/przybyl/ddj27/varia/Varia.java
+// java org/przybyl/ddj26/varia/Varia.java
 public class Varia {
     public static void main(String[] args) {
 
